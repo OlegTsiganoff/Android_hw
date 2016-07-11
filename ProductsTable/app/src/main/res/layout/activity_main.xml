@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ex.oleg.productstable.MainActivity">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <TableLayout>
+            <TableRow>
+                <TableLayout android:layout_width="100dp"
+                    android:layout_height="230dp">
+                    <TextView
+                        android:gravity="start"
+                        android:text="Наименование продукта"
+                        android:layout_height="100dp"
+                        android:layout_width="50dp"/>
+                    <TextView
+                        android:gravity="start"
+                        android:text="Репчатый лук"
+                        android:layout_height="30dp"
+                        android:layout_width="50dp"/>
+                    <TextView
+                        android:gravity="start"
+                        android:text="Петрушка"
+                        android:layout_height="30dp"
+                        android:layout_width="50dp"/>
+                    <TextView
+                        android:gravity="start"
+                        android:text="Укроп"
+                        android:layout_height="30dp"
+                        android:layout_width="50dp"/>
+                    <TextView
+                        android:gravity="start"
+                        android:text="Щавель"
+                        android:layout_height="30dp"
+                        android:layout_width="50dp"/>
+                </TableLayout>
+                <TableLayout>
+                    <TableRow>
+                        <TableLayout>
+                            <TableRow>
+                                <TableLayout>
+                                    <TableRow>
+                                        <TextView
+                                            android:gravity="start"
+                                            android:text="Белки"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"/>
+                                        <TextView
+                                            android:gravity="start"
+                                            android:text="Жиры"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"/>
+                                        <TextView
+                                            android:gravity="start"
+                                            android:text="Углеводы"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"/>
+                                    </TableRow>
+                                </TableLayout>
+
+                            </TableRow>
+                            <TableRow android:layout_height="90dp">
+                                <TextView
+                                    android:gravity="start"
+                                    android:text="В граммах"
+                                    android:layout_height="match_parent"
+                                    android:layout_width="wrap_content"/>
+                            </TableRow>
+                        </TableLayout>
+                    </TableRow>
+                    <TableRow></TableRow>
+                    <TableRow></TableRow>
+                    <TableRow></TableRow>
+                    <TableRow></TableRow>
+                </TableLayout>
+            </TableRow>
+        </TableLayout>
+
+    </TableRow>
+    <TableRow android:layout_width="match_parent">
+        <TextView
+            android:gravity="center"
+            android:text="Молочные продукты"
+            android:layout_height="30dp"
+            android:layout_width="match_parent"/>
+    </TableRow>
+    <TableRow>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:gravity="center"
+            android:text="Мясные и рыбные продукты"
+            android:layout_height="30dp"
+            android:layout_width="match_parent"/>
+    </TableRow>
+    <TableRow>
+
+    </TableRow>
+</TableLayout>
+
+</RelativeLayout>

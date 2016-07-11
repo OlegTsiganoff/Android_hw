@@ -10,7 +10,7 @@
     tools:context="com.ex.oleg.stringtimer.MainActivity">
 
     <LinearLayout
-        android:gravity="center_horizontal |top"
+        android:gravity="center|top"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -23,10 +23,12 @@
 
             <TextView
                 android:text="twenty four"
+                style="@style/timeTextStyle"
                 android:id="@+id/textTimeHours"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
+                style="@style/timeTextStyle"
                 android:text="hours"
                 android:id="@+id/textHours"
                 android:layout_width="wrap_content"
@@ -41,11 +43,13 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/timeTextStyle"
                 android:text="fifty seven"
                 android:id="@+id/textTimeMinutes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
+                style="@style/timeTextStyle"
                 android:text="minutes"
                 android:id="@+id/textMinutes"
                 android:layout_width="wrap_content"
@@ -60,11 +64,13 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/timeTextStyle"
                 android:text="thirty four"
                 android:id="@+id/textTimeSeconds"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
+                style="@style/timeTextStyle"
                 android:text="seconds"
                 android:id="@+id/textSeconds"
                 android:layout_width="wrap_content"
@@ -72,6 +78,11 @@
                 android:layout_marginLeft="6dp"/>
 
         </LinearLayout>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/textTimeNumbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 </RelativeLayout>
